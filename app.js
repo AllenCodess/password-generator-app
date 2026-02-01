@@ -1,3 +1,4 @@
+// logic
 // prettier-ignore
 const characters = [
   "A","B","C","D","E","F","G","H","I","J",
@@ -15,3 +16,13 @@ const characters = [
 const numOfPasswordCharacters = 15;
 let randomPasswordCharacters = [];
 let randomPassword = [];
+
+// DOM ELEMENTS
+let generatedPassword = document.getElementById("generated-password");
+let btnPasswordEl = document.getElementById("btn-password");
+
+btnPasswordEl.addEventListener("click", textFunc);
+
+function textFunc() {
+  generatedPassword.value = "yooo";
+}
