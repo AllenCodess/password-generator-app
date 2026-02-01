@@ -27,5 +27,8 @@ function textFunc() {
     randomPasswordCharacters.push(randomIndex);
     randomPassword.push(characters[randomIndex]);
   }
-  generatedPassword.value = randomPassword;
+  generatedPassword.value = randomPassword.join("");
+  //clears input
+  randomPasswordCharacters = [];
+  randomPassword = [];
 }
