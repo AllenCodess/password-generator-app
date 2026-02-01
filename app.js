@@ -19,6 +19,7 @@ let randomPassword = [];
 let generatedPassword = document.getElementById("generated-password");
 let btnPasswordEl = document.getElementById("btn-password");
 
+//event listener
 btnPasswordEl.addEventListener("click", textFunc);
 
 function textFunc() {
