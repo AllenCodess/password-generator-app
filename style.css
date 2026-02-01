@@ -12,4 +12,42 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  color: white;
+}
+
+.container {
+  max-width: 1250px;
+  width: 90%;
+  margin: auto;
+}
+
+.password-container {
+  margin: 4rem auto;
+  background-color: #162fc0;
+  text-align: center;
+  width: 40%;
+  border-radius: 8px;
+  height: 300px;
+}
+
+.header-container {
+  padding-top: 1rem;
+}
+
+.input-container {
+  margin-top: 3rem;
+}
+
+.password-input {
+  padding: 0.8rem 4rem;
+  background-color: #071353;
+  border-radius: 9px;
+}
+
+button {
+  margin-top: 3.5rem;
+  padding: 0.7rem 1.3rem;
+  font-size: 16px;
+  border-radius: 8px;
+  font-weight: bold;
 }
