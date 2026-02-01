@@ -8,9 +8,7 @@ const characters = [
   "o","p","q","r","s","t","u","v","w","x",
   "y","z","0","1","2","3","4","5","6","7",
   "8","9","~","`","!","@","#","$","%","^",
-  "&","*","(",")","_","-","+","=","{","[",
-  "}","]",",","|",":",";","<",">",".","?",
-  "/"
+  "&","*"
 ];
 
 const numOfPasswordCharacters = 15;
@@ -24,5 +22,10 @@ let btnPasswordEl = document.getElementById("btn-password");
 btnPasswordEl.addEventListener("click", textFunc);
 
 function textFunc() {
-  generatedPassword.value = "yooo";
+  for (i = 0; i < numOfPasswordCharacters; ++i) {
+    let randomIndex = Math.floor(Math.random() * characters.length);
+    randomPasswordCharacters.push(randomIndex);
+    randomPassword.push(characters[randomIndex]);
+  }
+  generatedPassword.value = randomPassword;
 }
