@@ -13,6 +13,7 @@ body {
   background-size: cover;
   height: 100vh;
   color: white;
+  font-family: "Archivo", sans-serif;
 }
 
 .container {
@@ -22,8 +23,8 @@ body {
 }
 
 .password-container {
-  margin: 4rem auto;
-  background-color: #162fc0;
+  margin: 15rem auto;
+  background-color: #02082b;
   text-align: center;
   width: 40%;
   border-radius: 8px;
@@ -39,8 +40,8 @@ body {
 }
 
 .password-input {
-  padding: 0.8rem 4rem;
-  background-color: #071353;
+  padding: 0.8rem 7rem;
+  background-color: rgb(42, 42, 77);
   border-radius: 9px;
 }
 
